@@ -28,7 +28,17 @@ The model is built upon PyTorch and VMamba. To ensure a smooth evaluation, pleas
    ```bash
    pip install -r requirements.txt
    
-3. Expected Output
+3. Running the Inference Demo
+We provide a plug-and-play demo script to evaluate the fine-grained topological reasoning capabilities of FGC-Net under complex traffic scenarios.
+Note: The script is designed with hardware adaptability. It will automatically utilize the GPU (cuda) if available for optimal performance, or fallback to cpu to ensure the inference can still be executed successfully on standard laptops.
+
+   ```bash
+   python tools/demo.py
+
+Execution Command:
+Simply run the following command from the root directory:
+   
+4. Expected Output
     Upon running tools/demo.py, the script will automatically load the pre-trained weights and process the sample images provided in the testing folder.
 
     What reviewers will observe:
