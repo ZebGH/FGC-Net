@@ -39,8 +39,6 @@ The model is built upon PyTorch and VMamba. To ensure a smooth evaluation, pleas
    ```bash
    python tools/demo.py
 
-Execution Command:
-Simply run the following command from the root directory:
    
 4. Expected Output
     Upon running tools/demo.py, the script will automatically load the pre-trained weights and process the sample images provided in the testing folder.
