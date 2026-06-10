@@ -1,4 +1,4 @@
-# Supplementary Material: Inference Demo for FGC-Net
+# Inference Demo for FGC-Net
 
 This repository provides the official inference code, pre-trained weights, and a running demo for the manuscript: 
 **"Towards Rule-Compliant Driving Perception: A Fine-Grained Collaborative Network with Spatial-Semantic Decoupling"** submitted to IEEE T-ITS.
