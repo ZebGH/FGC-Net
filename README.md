@@ -34,7 +34,9 @@ The model is built upon PyTorch and VMamba. To ensure a smooth evaluation, pleas
 
    #### Pre-trained Weights Download
    Download the pre-trained model weights from one of the following mirrors:
+   
    **China Mirror (Baidu Netdisk)**: [checkpoint.pth](https://pan.baidu.com/s/1LAVf592szicXYY9vJfuszw?pwd=fgcn 提取码: fgcn)
+   
    Place the downloaded weight file in the `./weights/` directory. The script will automatically detect and load the weights.
 
    Note: The script is designed with hardware adaptability. It will automatically utilize the GPU (cuda) if available for optimal performance, or fallback to cpu to ensure the inference can still be executed successfully on standard laptops.
