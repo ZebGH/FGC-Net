@@ -3,7 +3,7 @@
 This repository provides the official inference code, pre-trained weights, and a running demo for the manuscript: 
 **"Towards Rule-Compliant Driving Perception: A Fine-Grained Collaborative Network with Spatial-Semantic Decoupling"** submitted to IEEE T-ITS.
 
-To protect the core intellectual property prior to formal acceptance, this supplementary material acts as a "half-open source" release. It includes the complete model definition (`model.py`), the inference script (`tools/demo.py`), and the pre-trained weights to demonstrate real-time, fine-grained panoptic perception (vehicle detection, drivable area segmentation, and lane line detection). The full training pipeline and dataset building scripts will be made publicly available upon acceptance.
+To protect the core intellectual property prior to formal acceptance, this supplementary material acts as a "half-open source" release. It includes the complete model definition (`lib/models/fgcnet.py`), the inference script (`tools/demo.py`), and the pre-trained weights to demonstrate real-time, fine-grained panoptic perception (vehicle detection, drivable area segmentation, and lane line detection). The full training pipeline and dataset building scripts will be made publicly available upon acceptance.
 
 ## 1. Environment Setup
 
